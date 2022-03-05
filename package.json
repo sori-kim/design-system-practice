@@ -1,0 +1,48 @@
+{
+  "name": "design-system-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 9009 -s public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "sori-kim",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@storybook/react": "^6.4.19",
+    "@types/classnames": "^2.3.1",
+    "@types/react": "^17.0.39",
+    "babel-loader": "^8.2.3",
+    "babel-preset-react-app": "^10.0.1",
+    "classnames": "^2.3.1",
+    "postcss": "^8.4.7",
+    "rollup": "^2.68.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.2",
+    "typescript-plugin-css-modules": "^3.4.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^10.2.1",
+    "styled-components": "^5.3.3"
+  }
+}

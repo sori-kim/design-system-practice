@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./build",
+    "baseUrl": "./src",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "typeRoots": [
+      "./src/types"
+    ],
+    "plugins": [{"name" : "typescript-plugin-css-modules" }]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
